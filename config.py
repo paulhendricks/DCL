@@ -86,7 +86,12 @@ class LoadConfig(object):
             self.dataset = args.dataset
             self.rawdata_root = '/data/images'
             self.anno_root = '/workspace/products_10k/annotations'
-            self.numcls = 9691        
+            self.numcls = 9691
+        elif args.dataset == 'aliproducts':
+            self.dataset = args.dataset
+            self.rawdata_root = '/data/images'
+            self.anno_root = '/workspace/aliproducts/annotations'
+            self.numcls = 50030
         else:
             raise Exception('dataset not defined ???')
 

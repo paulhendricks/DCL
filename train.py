@@ -22,8 +22,8 @@ from utils.dataset_DCL import collate_fn4train, collate_fn4val, collate_fn4test,
 
 import pdb
 
-os.environ['CUDA_DEVICE_ORDRE'] = 'PCI_BUS_ID'
-os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3'
+os.environ['CUDA_DEVICE_ORDER'] = 'PCI_BUS_ID'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3,4,5,6,7'
 
 # parameters setting
 def parse_args():
