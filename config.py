@@ -92,6 +92,11 @@ class LoadConfig(object):
             self.rawdata_root = '/data/images/trainval'
             self.anno_root = '/workspace/aliproducts/annotations'
             self.numcls = 50030
+        elif args.dataset == 'rp2k':
+            self.dataset = args.dataset
+            self.rawdata_root = '/data/images'
+            self.anno_root = '/workspace/rp2k/annotations'
+            self.numcls = 2000
         else:
             raise Exception('dataset not defined ???')
 
