@@ -89,7 +89,7 @@ class LoadConfig(object):
             self.numcls = 9691
         elif args.dataset == 'aliproducts':
             self.dataset = args.dataset
-            self.rawdata_root = '/data/images'
+            self.rawdata_root = '/data/images/trainval'
             self.anno_root = '/workspace/aliproducts/annotations'
             self.numcls = 50030
         else:
