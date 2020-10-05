@@ -96,7 +96,7 @@ class LoadConfig(object):
             self.dataset = args.dataset
             self.rawdata_root = '/data/images'
             self.anno_root = '/workspace/rp2k/annotations'
-            self.numcls = 2000
+            self.numcls = 2384
         else:
             raise Exception('dataset not defined ???')
 
